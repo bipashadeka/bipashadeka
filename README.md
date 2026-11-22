@@ -24,11 +24,11 @@ Currently open to internships and graduate roles in robotics and mechanical desi
 
 ```mermaid
 flowchart LR
-  A[SolidWorks CAD] --> B[ANSYS FEA]
-  B --> C[URDF model]
+  A[SolidWorks] --> B[FEA]
+  B --> C[URDF]
   C --> D[Kinematics]
-  D --> E[MRAC control]
-  E --> F[ROS2 + Gazebo test]
+  D --> E[MRAC]
+  E --> F[ROS2 + Gazebo]
   F -. redesign .-> A
   classDef pink fill:#ffd1e8,stroke:#e75480,stroke-width:2px,color:#4a0d27
   class A,B,C,D,E,F pink
@@ -94,6 +94,10 @@ Worked on ALCO/HHP fuel injection pumps and mechanical unit injectors: inspectio
 ---
 
 ### Activity
+
+<p align="center">
+<img src="metrics.svg" alt="GitHub metrics" width="100%" />
+</p>
 
 <p align="center">
 <picture>

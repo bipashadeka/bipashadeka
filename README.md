@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffd1e8,100:e75480&height=180&section=header&text=Hi,%20I'm%20Bipasha%20🪼&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffd1e8,50:f08cb4,100:e75480&height=240&section=header&text=Hi,%20I'm%20Bipasha%20🪼&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Mechanical%20Engineering%20Student%20%C2%B7%20Tezpur%20University&descSize=18&descAlignY=56" width="100%"/>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=E75480&center=true&vCenter=true&width=600&lines=Mechanical+Engineering+Student;Robot+Design+%26+Simulation;ROS2+%C2%B7+Gazebo+%C2%B7+Adaptive+Control" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=E75480&center=true&vCenter=true&width=700&lines=I+design+robots+from+CAD+to+control;SolidWorks+%E2%86%92+ANSYS+%E2%86%92+URDF+%E2%86%92+ROS2;1+kHz+adaptive+control+on+an+8-DOF+exoskeleton;Open+to+robotics+internships+and+grad+roles" alt="Typing intro" />
 </p>
 
 <p align="center">
@@ -19,6 +19,32 @@ I'm a final-year **B.Tech Mechanical Engineering student** at **Tezpur Universit
 Most of my work is on the mechanical side of robots. I model the parts in SolidWorks and check them with FEA. After that I work out the kinematics and control, and test it all in ROS2 and Gazebo. I've also done 3D printing and the usual workshop work.
 
 Currently open to internships and graduate roles in robotics and mechanical design, including automation.
+
+### How I build a robot
+
+```mermaid
+flowchart LR
+  A[SolidWorks CAD] --> B[ANSYS FEA]
+  B --> C[URDF model]
+  C --> D[Kinematics]
+  D --> E[MRAC control]
+  E --> F[ROS2 + Gazebo test]
+  F -. redesign .-> A
+  classDef pink fill:#ffd1e8,stroke:#e75480,stroke-width:2px,color:#4a0d27
+  class A,B,C,D,E,F pink
+```
+
+### By the numbers
+
+<table align="center">
+<tr>
+<td align="center"><h2>1 kHz</h2>MRAC control loop</td>
+<td align="center"><h2>24</h2>parameters estimated online</td>
+<td align="center"><h2>0.13°</h2>best tracking RMSE</td>
+<td align="center"><h2>100 mm</h2>quadruped stability margin</td>
+<td align="center"><h2>0.12%</h2>FEA vs hand calcs</td>
+</tr>
+</table>
 
 ---
 
@@ -67,11 +93,21 @@ Worked on ALCO/HHP fuel injection pumps and mechanical unit injectors: inspectio
 
 ---
 
-### GitHub stats
+### Activity
 
 <p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bipashadeka&show_icons=true&hide_border=true&bg_color=00000000&title_color=e75480&icon_color=e75480&text_color=8b949e" />
-<img height="165" src="https://streak-stats.demolab.com?user=bipashadeka&hide_border=true&background=00000000&ring=e75480&fire=e75480&currStrNum=e75480&currStrLabel=e75480&sideNums=8b949e&sideLabels=8b949e&dates=8b949e&stroke=8b949e40" />
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+<img src="profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph" width="100%" />
+</picture>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e75480,100:ffd1e8&height=100&section=footer" width="100%"/>
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bipashadeka&bg_color=00000000&color=e75480&line=e75480&point=f08cb4&area=true&area_color=e75480&hide_border=true&title_color=e75480&custom_title=Contributions" width="100%" />
+</p>
+
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=bipashadeka&hide_border=true&background=00000000&ring=e75480&fire=e75480&currStrNum=e75480&currStrLabel=e75480&sideNums=8b949e&sideLabels=8b949e&dates=8b949e&stroke=8b949e40" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e75480,50:f08cb4,100:ffd1e8&height=120&section=footer&animation=twinkling" width="100%"/>
